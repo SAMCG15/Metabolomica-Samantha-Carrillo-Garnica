@@ -1,0 +1,31 @@
+2+2
+#Primera clase de R
+2^(-4)
+RNA<- 1.5
+DNA <- 3
+RNA+DNA
+
+#Realicé un conteo celular y determiné que la linea celular 
+CHO <- 535000
+VERO <- 1350000
+Total <- CHO+VERO
+#números
+x <- 35
+y <- 22
+#caracteres
+w <- "34"
+z <- "25"
+
+x+y
+w+z
+
+
+Nombres <- c("Manuel", "Jesus", "Juana", "Yaniu")
+Estatura <- c(1.77, 1.70, 1.60, 1.79)
+Edad <- c(42, 21, 22, 23)
+Mascotas <- c("si", "si", "no", "si")
+
+Tabla <- data.frame(Nombres, Estatura, Edad, Mascotas)
+Tabla
+View(Tabla)
+
